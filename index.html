@@ -29,6 +29,20 @@
           <a class="logo" href="./index.html"
             >Web<span class="logo-web">Studio</span></a
           >
+        </nav>
+        <div class="menu-mobile">
+          <button type="button" class="button-menu-mobile is-open">
+            <svg class="menu-mobile-icon" width="24" height="24">
+              <use
+                class="menu-mobile-close"
+                href="./images/icons.svg#icon-close-black"
+              ></use>
+              <use
+                class="menu-mobile-open"
+                href="./images/icons.svg#icon-heroicons-solid_menu"
+              ></use>
+            </svg>
+          </button>
 
           <ul class="nav-menu">
             <li>
@@ -37,21 +51,52 @@
             <li><a class="nav-text" href="">Portfolio</a></li>
             <li><a class="nav-text" href="">Contacts</a></li>
           </ul>
-        </nav>
-        <address class="home">
-          <ul class="address-list">
-            <li class="address-item">
-              <a class="address-text" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+
+          <address class="home">
+            <ul class="address-list">
+              <li class="address-item">
+                <a class="address-text" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-text" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list-header">
+            <li class="social-item">
+              <a class="social-link" href="fgt"
+                ><svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a class="address-text" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="social-item">
+              <a class="social-link" href="fgt">
+                <svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="fgt"
+                ><svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="fgt"
+                ><svg class="social-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </header>
 
@@ -76,7 +121,7 @@
                 </svg>
               </div>
               <h3 class="features">Strategy</h3>
-              <p class="features-te">
+              <p class="features-tet">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -89,7 +134,7 @@
               </div>
 
               <h3 class="features">Punctuality</h3>
-              <p class="features-te">
+              <p class="features-tet">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -101,7 +146,7 @@
                 </svg>
               </div>
               <h3 class="features">Diligence</h3>
-              <p class="features-te">
+              <p class="features-tet">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -114,7 +159,7 @@
                 </svg>
               </div>
               <h3 class="features">Technologies</h3>
-              <p class="features-te">
+              <p class="features-tet">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -137,7 +182,7 @@
               />
               <div class="box-workers">
                 <h3 class="employees human">Mark Guerrero</h3>
-                <p class="features-text">Product Designer</p>
+                <p class="features-text features-center">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a class="social-link" href="fgt"
@@ -179,7 +224,7 @@
               />
               <div class="box-workers">
                 <h3 class="employees human">Tom Ford</h3>
-                <p class="features-text">Frontend Developer</p>
+                <p class="features-text features-center">Frontend Developer</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a class="social-link" href=""
@@ -221,7 +266,7 @@
               />
               <div class="box-workers">
                 <h3 class="employees human">Camila Garcia</h3>
-                <p class="features-text">Marketing</p>
+                <p class="features-text features-center">Marketing</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a class="social-link" href=""
@@ -263,7 +308,7 @@
               />
               <div class="box-workers">
                 <h3 class="employees human">Daniel Wilson</h3>
-                <p class="features-text">UI Designer</p>
+                <p class="features-text features-center">UI Designer</p>
                 <ul class="social-list">
                   <li class="social-item">
                     <a class="social-link" href=""
@@ -500,7 +545,7 @@
     <!-- =================form=================== -->
 
     <!-- ============backdrop==================== -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="wrap-form">
         <button class="close" type="button">
           <svg class="close-svg" width="8" height="8">
