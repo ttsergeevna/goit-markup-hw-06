@@ -25,25 +25,19 @@
   <body>
     <header class="caption">
       <div class="container cont-head">
-        <nav class="navigation">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-web">Studio</span></a
-          >
-        </nav>
+        <button type="button" class="button-menu-mobile">
+          <svg class="menu-mobile-icon" width="24" height="24">
+            <use
+              class="menu-mobile-close"
+              href="./images/icons.svg#icon-close-black"
+            ></use>
+            <use
+              class="menu-mobile-open"
+              href="./images/icons.svg#icon-heroicons-solid_menu"
+            ></use>
+          </svg>
+        </button>
         <div class="menu-mobile">
-          <button type="button" class="button-menu-mobile is-open">
-            <svg class="menu-mobile-icon" width="24" height="24">
-              <use
-                class="menu-mobile-close"
-                href="./images/icons.svg#icon-close-black"
-              ></use>
-              <use
-                class="menu-mobile-open"
-                href="./images/icons.svg#icon-heroicons-solid_menu"
-              ></use>
-            </svg>
-          </button>
-
           <ul class="nav-menu">
             <li>
               <a class="nav-text current-page" href="./index.html">Studio</a>
@@ -66,6 +60,7 @@
               </li>
             </ul>
           </address>
+
           <ul class="social-list-header">
             <li class="social-item">
               <a class="social-link" href="fgt"
@@ -97,12 +92,17 @@
             </li>
           </ul>
         </div>
+        <nav class="navigation">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-web">Studio</span></a
+          >
+        </nav>
       </div>
     </header>
 
     <main>
       <!--section1-->
-      <section class="section-one">
+      <section class="section-one background-hero">
         <div class="container">
           <h1 class="solutions">Effective Solutions for Your Business</h1>
           <button class="but-order" type="button">Order Service</button>
@@ -175,7 +175,8 @@
           <ul class="head-list">
             <li class="three-num">
               <img
-                src="./images/imgfir.jpg"
+                srcset="./images/mark-min.jpg 1x, ./images/mark@2x-min.jpg 2x"
+                src="./images/mark-min.jpg"
                 alt="photo of our product designer"
                 width="264"
                 height="260"
@@ -217,7 +218,8 @@
             </li>
             <li class="three-num">
               <img
-                src="./images/tom.jpg"
+                srcset="./images/tom1-min.jpg 1x, ./images/tom@2x-min.jpg 2x"
+                src="./images/tom1-min.jpg"
                 alt="photo og our frontend"
                 width="264"
                 height="260"
@@ -259,7 +261,11 @@
             </li>
             <li class="three-num">
               <img
-                src="./images/cam.jpg"
+                srcset="
+                  ./images/amila1-min.jpg    1x,
+                  ./images/camila@2x-min.jpg 2x
+                "
+                src="./images/amila1-min.jpg"
                 alt="photo of our Marketing"
                 width="264"
                 height="260"
@@ -301,7 +307,11 @@
             </li>
             <li class="three-num">
               <img
-                src="./images/4.jpg"
+                srcset="
+                  ./images/daniel-min.jpg    1x,
+                  ./images/daniel@2x-min.jpg 2x
+                "
+                src="./images/daniel-min.jpg"
                 alt="photo of our UI"
                 width="264"
                 height="260"
@@ -354,10 +364,9 @@
             <li class="products">
               <div class="portfolio-overlay">
                 <img
-                  src="./images/portfolio1-min.jpg"
+                  srcset="./images/pp-min.jpg 1x, ./images/app@2x-min.jpg 2x"
+                  src="./images/pp.jpg"
                   alt="Banking App"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -374,10 +383,12 @@
             <li class="products">
               <div class="portfolio-overlay">
                 <img
-                  src="./images/portfolio2-min.jpg"
+                  srcset="
+                    ./images/portfolio2-min.jpg    1x,
+                    ./images/portfolio2@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio2.jpg"
                   alt="Cashless Payment"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -394,10 +405,12 @@
             <li class="products">
               <div class="portfolio-overlay">
                 <img
-                  src="./images/portfolio3-min.jpg"
+                  srcset="
+                    ./images/portfolio3-min.jpg    1x,
+                    ./images/portfolio3@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio3.jpg"
                   alt="Meditation App"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -414,10 +427,12 @@
             <li class="products">
               <div class="portfolio-overlay">
                 <img
-                  src="./images/portfolio4-min.jpg"
+                  srcset="
+                    ./images/portfolio4-min.jpg    1x,
+                    ./images/portfolio4@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio4.jpg"
                   alt="Taxi Service"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -434,10 +449,12 @@
             <li class="products">
               <div class="portfolio-overlay">
                 <img
-                  src="./images/portfolio5-min.jpg"
+                  srcset="
+                    ./images/portfolio5-min.jpg    1x,
+                    ./images/portfolio5@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio5.jpg"
                   alt="Screen Illustrations"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -454,10 +471,12 @@
             <li class="products">
               <div class="portfolio-overlay">
                 <img
-                  src="./images/portfolio6-min.jpg"
+                  srcset="
+                    ./images/portfolio6-min.jpg    1x,
+                    ./images/portfolio6@2x-min.jpg 2x
+                  "
+                  src="./images/portfolio6.jpg"
                   alt="Online Courses"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -487,7 +506,7 @@
         </div>
 
         <div class="social-site">
-          <p class="footer-last">Social media</p>
+          <p class="footer-last footer-central">Social media</p>
           <ul class="social-list social-list-footer">
             <li class="social-item">
               <a class="social-link social-link-footer" href=""
@@ -520,7 +539,7 @@
           </ul>
         </div>
         <div class="email-inp">
-          <p class="subscribe">Subscribe</p>
+          <p class="subscribe footer-central">Subscribe</p>
           <!-- <div class="wrap-form-footer"></div> -->
 
           <form class="form-footer">
@@ -531,7 +550,7 @@
                 type="email"
                 placeholder="E-mail"
             /></label>
-            <button class="btn-email" type="submit">
+            <button class="btn-email footer-central" type="submit">
               Subscribe
               <svg class="icon-subscribe" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame"></use>
@@ -544,7 +563,7 @@
 
     <!-- =================form=================== -->
 
-    <!-- ============backdrop==================== -->
+    <!-- ============backdrop======is-open-modal============== -->
     <div class="backdrop">
       <div class="wrap-form">
         <button class="close" type="button">
