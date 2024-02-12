@@ -82,10 +82,6 @@ img{
     
 
 }
-
-.button-radius{
-    border-radius: 50%;
-}
 .button-menu-mobil ~ .menu-mobile-close{
     display: none;
 }
