@@ -25,19 +25,15 @@
   <body>
     <header class="caption">
       <div class="container cont-head">
-        <button type="button" class="button-menu-mobile">
-          <svg class="menu-mobile-icon" width="24" height="24">
-            <use
-              class="menu-mobile-close"
-              href="./images/icons.svg#icon-close-black"
-            ></use>
-            <use
-              class="menu-mobile-open"
-              href="./images/icons.svg#icon-heroicons-solid_menu"
-            ></use>
-          </svg>
-        </button>
-        <div class="menu-mobile">
+        <div class="menu-mobile is-open">
+          <button type="button" class="button-menu-mobile">
+            <svg class="menu-mobile-icon" width="8" height="8">
+              <use
+                class="menu-mobile-close"
+                href="./images/icons.svg#icon-close-black"
+              ></use>
+            </svg>
+          </button>
           <ul class="nav-menu">
             <li>
               <a class="nav-text current-page" href="./index.html">Studio</a>
@@ -97,6 +93,45 @@
             >Web<span class="logo-web">Studio</span></a
           >
         </nav>
+        <button type="button" class="button-menu-mobile">
+          <svg class="menu-mobile-icon" width="24" height="24">
+            <use
+              class="menu-mobile-open"
+              href="./images/icons.svg#icon-heroicons-solid_menu"
+            ></use>
+          </svg>
+        </button>
+
+        <!-- cont-head -->
+        <div class="container header">
+          <!-- <nav class="navigation">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-web">Studio</span></a
+          ></nav> -->
+
+          <ul class="nav-menu">
+            <li>
+              <a class="nav-text current-page" href="./index.html">Studio</a>
+            </li>
+            <li><a class="nav-text" href="">Portfolio</a></li>
+            <li><a class="nav-text" href="">Contacts</a></li>
+          </ul>
+
+          <address class="home">
+            <ul class="address-list">
+              <li class="address-item">
+                <a class="address-text" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-text" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
